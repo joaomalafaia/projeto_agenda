@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1000px;  /*forma de centralizar o nosso formulário, ele ocupa 100* do espaço que destinamos */
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #b3f7a2;
+    padding-top: 80px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+header img {
+    height: 50px;
+    margin-left: 16px;
+}
+
+header h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+form .campos {
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+form input {
+    font-size: 16px;
+    background-color: white;
+    border: rgb(3, 58, 3) inset 2px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+form button { 
+    background-color: rgb(232, 240, 232);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+form button:hover {
+    background-color: #52704b;
+    color: aliceblue;
+}
+
+table {
+    width: 100%;
+    background-color: aliceblue;
+    border: 1px solid rgb(11, 34, 11);
+}
+
+table th {
+    border-bottom: 1.5px solid black;
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+table td {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1.8px solid rgba(0, 0, 0, 0.3);
+}
